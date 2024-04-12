@@ -1,0 +1,94 @@
+= Tst asciidoctor
+:author: Carl Capodice <awsomesawce@outlook.com>
+:toc: right
+:url-docs: https://asciidoctor.com/docs
+:icons: font
+:backend: book
+:toc-title: My TOC
+
+I'm testing how `asciidoctor` works in MSYS2.
+
+I have to use one of the MINGW shells to make ruby work in Win32.
+
+== Formatting Options
+
+There are _so many_ options for formatting in Asciidoc.
+
+There are also extra things only available from the `asciidoctor` parser.
+
+Luckily, *asciidoctor* is available in `node` and `deno`.
+
+=== Formatting One
+:hardbreaks-option:
+
+.Constrained (applied at word boundaties)
+
+
+=== Descriptions
+
+Asciidoc:: The markup language of this document.
+Asciidoctor:: The tool to convert *Asciidoc* into *HTML*.
+
+
+== Tools
+
+.List of tools
+[%collapsible]
+====
+* [Asciidoctor]{url-docs}
+** Node
+** Ruby
+** Deno
+* Asciidoc VSCode Extension - Converts asciidoc into html automagically.
+====
+
+****
+sidebar - Let's see this...
+****
+
+....
+literal
+....
+
+----
+listing - an exhibit that features program input, source code, or the contents of a file
+----
+
+
+== Tables
+
+.Table Attributes
+[cols=>1h;2d,width=50%,frame=ends]
+|===
+| Attribute Name | Values
+
+| options
+| header,footer,autowidth
+
+| cols
+| colspec[;colspec;...]
+
+| grid
+| all \| cols \| rows \| none
+
+| frame
+| all \| sides \| ends \| none
+
+| stripes
+| all \| even \| odd \| none
+
+| width
+| (0%..100%)
+
+| format
+| psv {vbar} csv {vbar} dsv
+|===
+
+== Breaks
+
+Thematic break
+---
+
+Page break
+// comment
+<<<
