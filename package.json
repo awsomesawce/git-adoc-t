@@ -1,0 +1,44 @@
+{
+  "name": "git-adoc-t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@asciidoctor/cli": "^4.0.0",
+    "@biomejs/biome": "^1.6.4",
+    "@microsoft/tsdoc": "^0.14.2",
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "jsdoc": "^4.0.2",
+    "jsdoc-to-markdown": "^8.0.1",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.0",
+    "style-loader": "^4.0.0",
+    "stylelint": "^16.3.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "json5": "^2.2.3",
+    "jsonc": "^2.0.0",
+    "lodash": "^4.17.21",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5",
+    "yaml": "^2.4.1"
+  }
+}
