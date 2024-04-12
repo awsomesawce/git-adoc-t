@@ -1,0 +1,24 @@
+= NOTES
+
+Interesting things to keep in mind.
+
+== Msys2 compatibility
+
+NOTE: When starting `codium` from the MSYS2 prompt, you have access to
+the MSYS2 PATH and programs.
+
+When using the integrated terminal, and if you have Git for Windows
+installed, opening a Git Bash shell in the integrated terminal will
+make it act just like your MSYS2 shell!
+
+=== Why does this happen
+
+I believe it happens because it reads the bash config from
+`~/.bashrc`, etc, and `$HOME` is set to the *MSYS2* home!
+
+Pretty cool!
+
+== Using Helix
+
+NOTE: Helix is available from both _scoop_ and _msys2_ using it's `pacman`
+package manager.
